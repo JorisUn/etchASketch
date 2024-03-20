@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:0;
+    height: 100vh;
+}
+header, footer{
+    background-color:#BCEDF6;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.container{
+    margin:0;
+    width: 400px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+}
+.container div{
+    padding: 0;
+    height: 50px;
+    width: 50px;
+}
