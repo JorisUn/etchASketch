@@ -13,11 +13,15 @@
         <div class="main">
             <div class="buttonMenu"> 
                 <button type="button" class="gridClearButton"></button>
+                <button type="button" class="colorMode">Brush</button>
+                <input type="color" class="colorPicker" value="#000000">
+                <button type="button" class="eraseMode">Eraser</button>
                 <h3>Enter grid side length</h3>
                 <input type="text" name="" value="" class="gridLengthInput">
                 <button type="button" class="gridLengthButton">Enter</button>
+                <p class="invalidInput"></p>
             </div>
-            <div class="container">
+            <div class="container" draggable="false">
             </div>  
         </div>
         <footer>
